@@ -1,0 +1,14 @@
+Package: abodOutlier
+Title: Angle-Based Outlier Detection
+Version: 0.1
+Author: Jose Jimenez <jose@jimenezluna.com>
+Maintainer: Jose Jimenez <jose@jimenezluna.com>
+Description: Performs angle-based outlier detection on a given dataframe. Three methods are available, a full but slow implementation using all the data that has cubic complexity, a fully randomized one which is way more efficient and another using k-nearest neighbours. These algorithms are specially well suited for high dimensional data outlier detection.
+Depends: cluster, R (>= 3.1.2)
+License: MIT + file LICENSE
+LazyData: true
+Encoding: UTF-8
+NeedsCompilation: no
+Packaged: 2015-08-30 21:39:13 UTC; hawk31
+Repository: CRAN
+Date/Publication: 2015-08-31 14:31:42
